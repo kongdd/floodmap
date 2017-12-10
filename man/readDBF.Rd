@@ -30,4 +30,3 @@ url{http://shapelib.maptools.org/}.
 \seealso{
 \code{\link{write.dbf}}
 }
-

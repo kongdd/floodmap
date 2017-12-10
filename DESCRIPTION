@@ -1,14 +1,14 @@
 Package: floodmap
 Type: Package
 Title: Floodmap shapefile manipulate
-Version: 0.3.0
+Version: 0.4.0
 Author: Dongdong Kong
 Maintainer: kongdd<kongdd@mail2.sysu.edu.cn>
 Description: export shapefile dbf table property and modified fields in 2016 Floodmap Project
 License: None
 LazyData: TRUE
 import: openxlsx
-RoxygenNote: 5.0.1
+RoxygenNote: 6.0.1
 Suggests: testthat,
     knitr,
     rmarkdown

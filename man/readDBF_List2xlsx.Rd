@@ -20,4 +20,3 @@ read shapefile dbf table and write into excel *.xlsx
 inputdir <- system.file("data", package = "floodmap")
 reaDBF_List2xlsx(inputdir, "test01.xlsx")
 }
-

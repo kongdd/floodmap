@@ -219,9 +219,9 @@ check_gridcodeMatch <- function(x_list.62, x_newDT){
   # x_areaDT#quickly return Dt with GRIDAREA and water Volume
 }
 
-## plot to show YMSS progress, linux system have no windowsFonts function
-# windowsFonts(HT = windowsFont("SimHei"), St = windowsFont("SimSun"),
-#              Times = windowsFont("Times New Roman"), Arial = windowsFont("Arial"))
+## plot to show YMSS progress
+windowsFonts(HT = windowsFont("SimHei"), St = windowsFont("SimSun"),
+             Times = windowsFont("Times New Roman"), Arial = windowsFont("Arial"))
 f_melt <- function(x) reshape2::melt(x, id.vars = c("TIME", "VALUE", "waterV"),
                                      variable.name = "ymss") %>%
   set_colnames(c("TIME", "VALUE", "waterV", "ymss"))

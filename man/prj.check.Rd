@@ -15,4 +15,3 @@ check projection is or not CGCS_2000
 \examples{
 prj.check(indir)
 }
-

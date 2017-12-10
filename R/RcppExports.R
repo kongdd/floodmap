@@ -3,11 +3,11 @@
 
 #' @export
 list_change <- function(x, Id) {
-    .Call('floodmap_list_change', PACKAGE = 'floodmap', x, Id)
+    .Call('_floodmap_list_change', PACKAGE = 'floodmap', x, Id)
 }
 
 #' @export
 listlen <- function(x) {
-    .Call('floodmap_listlen', PACKAGE = 'floodmap', x)
+    .Call('_floodmap_listlen', PACKAGE = 'floodmap', x)
 }
 

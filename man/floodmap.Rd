@@ -4,8 +4,8 @@
 \name{floodmap}
 \alias{floodmap}
 \alias{floodmap-package}
+\alias{floodmap-package}
 \title{floodmap check}
 \keyword{check}
 \keyword{dbf}
 \keyword{floodmap}
-

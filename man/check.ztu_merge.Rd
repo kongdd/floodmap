@@ -7,4 +7,3 @@
 check.ztu_merge(x_list, show = FALSE, save = TRUE,
   file = "dedectInfo.xlsx")
 }
-

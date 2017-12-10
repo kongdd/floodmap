@@ -9,4 +9,3 @@ writeYMSS(x_new, fname)
 \description{
 write data.table variable into ymsstxt file. Time must be continued
 }
-

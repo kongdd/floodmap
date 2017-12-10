@@ -12,4 +12,3 @@ install packages dependency
 \examples{
 init.install()
 }
-

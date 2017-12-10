@@ -6,4 +6,3 @@
 \usage{
 readDBFs.ztu(indir, IsSplit = TRUE, checkField = FALSE, show = FALSE)
 }
-

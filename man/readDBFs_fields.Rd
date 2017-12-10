@@ -17,4 +17,3 @@ if fnames input, indir will be ignore
 inputdir <- system.file("data", package = "floodmap")
 fields <- readDBFs_fields(inputdir)
 }
-

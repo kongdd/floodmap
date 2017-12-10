@@ -9,4 +9,3 @@ YMSS.plot(X)
 \description{
 plot ymss
 }
-

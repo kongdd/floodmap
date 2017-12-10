@@ -6,4 +6,3 @@
 \usage{
 writeYMSStxts(x_newDT, ntime = NULL)
 }
-

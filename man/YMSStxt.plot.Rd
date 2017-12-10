@@ -6,4 +6,3 @@
 \usage{
 YMSStxt.plot(x_areaDT, river)
 }
-

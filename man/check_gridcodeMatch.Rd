@@ -6,4 +6,3 @@
 \usage{
 check_gridcodeMatch(x_list.62, x_newDT)
 }
-

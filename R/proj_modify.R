@@ -19,7 +19,7 @@ prj.modify <- function(indir){
 #' prj.check(indir)
 #' @export
 prj.check <- function(indir){
-  fnames <- dir(indir, pattern = "*.prj$", full.names = T, recursive = F)
+  fnames <- dir(indir, pattern = "*.prj$", full.names = T, recursive = T)
   prjs <- lapply(fnames,
                  function(fname) str_split(read_table(fname, col_names = F, progress = F)[[1]], '"')[[1]][2]) %>% unlist()
   data.frame(filename = basename(fnames), prj = prjs)#quickly return

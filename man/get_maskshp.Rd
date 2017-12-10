@@ -15,4 +15,3 @@ maskshp.shp at outdir directory
 \description{
 based ztu directory shapefiles clip grid.shp in 6.2
 }
-

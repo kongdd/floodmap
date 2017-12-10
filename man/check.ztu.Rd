@@ -18,4 +18,3 @@ generate fatal error
 \examples{
 TMP <- ztu.check(indir)
 }
-

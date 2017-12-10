@@ -19,4 +19,3 @@ scaleIn: digits after the decimal sign}
 modified write.dbf from foreign package, in order to control field precision
  and scale properties
 }
-

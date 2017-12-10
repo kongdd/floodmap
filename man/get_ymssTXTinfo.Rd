@@ -7,4 +7,3 @@
 get_ymssTXTinfo(x_newDT, save = FALSE, file = "YMSStxt_information.xlsx",
   ...)
 }
-

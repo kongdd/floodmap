@@ -9,4 +9,3 @@ check.6.2_ymssTXT(fname, hourly = T)
 \description{
 check floodmap 6.2 part ymss txt file
 }
-

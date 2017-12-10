@@ -9,4 +9,3 @@ dir.sort(indir, pattern = "*.dbf$", full.names = T, sort = TRUE, ...)
 \description{
 modified original dir function. only used fo floodmap Project
 }
-

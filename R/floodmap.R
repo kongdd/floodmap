@@ -30,7 +30,7 @@ init.install <- function(){
   }
   cat(sprintf("All packages needed have been existed.\n"))
 }
-init.install()
+
 #' @title dir.sort
 #' @description modified original dir function. only used fo floodmap Project
 #' @export
@@ -40,30 +40,3 @@ dir.sort <- function(indir, pattern = "*.dbf$", full.names = T, sort = TRUE, ...
   if (sort) fnames <- fnames[order(as.numeric(str_extract(basename(fnames), "\\d{1,2}")))]
   fnames#QUICKLY RETURN
 }
-
-#' @title dir.show
-#' @description open assign path in windows explorer, and default path is current directory
-#' @export
-dir.show <- function(path = getwd()){
-  commandStr <- paste("Explorer /e, ", gsub("/", "\\\\", path))
-  suppressWarnings(shell(commandStr))
-}
-
-#' @title fprintf
-#' @description print sprintf result into console
-#' @export
-fprintf <- function(fmt, ...) cat(sprintf(fmt, ...))
-
-#' @title getwd_clip
-#' @description get directory path in clipboard, same as getwd function
-#' @export
-getwd_clip <- function(){
-  path <- suppressWarnings(gsub("\\\\", "/",readLines("clipboard")))
-  writeLines(path, "clipboard", sep = "")
-  path#quickly return
-}
-
-#' @title setwd_clip
-#' @description set directory path in clipboard, same as setwd function
-#' @export
-setwd_clip <- function() setwd(getwd_clip())

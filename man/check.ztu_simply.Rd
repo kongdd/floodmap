@@ -6,4 +6,3 @@
 \usage{
 check.ztu_simply(ztu, show = TURE, save = FALSE, file = "dedectInfo.xlsx")
 }
-

@@ -6,4 +6,3 @@
 \usage{
 zipNUM(x)
 }
-

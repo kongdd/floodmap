@@ -9,4 +9,3 @@ readYMSStxts(indir6.2, fnames_txt = NULL, parallel = FALSE, ncluster = 4)
 \description{
 read all ymssn.txt files in indir6.2
 }
-

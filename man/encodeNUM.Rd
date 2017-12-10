@@ -6,4 +6,3 @@
 \usage{
 encodeNUM(x)
 }
-

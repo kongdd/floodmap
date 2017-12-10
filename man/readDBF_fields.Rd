@@ -19,4 +19,3 @@ for (i in seq_along(fnames)){
    print(readDBF_fields(fnames[i]))
 }
 }
-

@@ -15,4 +15,3 @@ only used for ztu shapefile data. Out of date, don't suggest
 \examples{
 TMP <- check.ztu_formatDBF(indir)
 }
-
